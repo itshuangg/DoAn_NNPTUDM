@@ -1,0 +1,31 @@
+----------------- quanlychungcu-api---------------------
+# Gói cốt lõi (Express, SQL Server, .env, CORS)
+npm install express mssql dotenv cors
+
+# Gói xác thực & Bảo mật (Tạo Token JWT, Băm mật khẩu)
+npm install jsonwebtoken bcryptjs
+
+# Gói Xử lý File (Upload file)
+npm install multer
+
+# Gói Xử lý Email (Quên mật khẩu)
+npm install nodemailer
+
+# Gói Xử lý Import (Đọc file CSV)
+npm install csv-parser
+
+# Cài đặt thư viện cho xác thực
+npm install bcryptjs jsonwebtoken
+
+# Cài đặt thư viện cho chức năng upload/import
+npm install multer xlsx
+
+---------------- quanlychungcu-ui--------------------------
+
+# Cài đặt các thư viện cốt lõi cho frontend
+npm install axios react-router-dom jwt-decode
+
+----------------- database -------------------------
+
+INSERT INTO dbo.NhanVien (MaNguoiDung, ChucVu, TrangThai) 
+VALUES (5, N'Quản lý', N'Active');
